@@ -3,7 +3,7 @@ for i in range(0, 10):
     for j in range(0, 10):
         if i < j:
             if i == 8:
-                print(f"{i:d}{j:d}")
+                print("{:d}{:d}".format(i, j)) 
                 break
-            print(f"{i:d}{j:d}", end=', ')
+            print("{1:d}{0:d}".format(j, i), end=', ')
 
