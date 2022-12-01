@@ -4,4 +4,4 @@ if __name__ == "__main__":
     import hidden_4 
     for item in dir(hidden_4):
         if "_" not in item:
-            print("{}".format(item))
+            print(item)
