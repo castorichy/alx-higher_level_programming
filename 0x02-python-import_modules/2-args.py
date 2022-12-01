@@ -13,4 +13,5 @@ def com_args():
         print("{}: {}".format(i, sys.argv[i]))
 
 
-com_args()
+if __name__ == '__main__':
+    com_args()
