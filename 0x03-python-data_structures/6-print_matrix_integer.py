@@ -6,3 +6,4 @@ def print_matrix_integer(matrix=[[]]):
                 print("{:d}".format(lst), end=' ')
                 if index < len(row):
                     print("{}".format(" "), end='')
+            print()
