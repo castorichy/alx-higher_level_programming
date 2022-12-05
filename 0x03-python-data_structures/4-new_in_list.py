@@ -12,10 +12,5 @@ def new_in_list(my_list, idx, element):
             return my_list
 
 
-lis = [12, 33, 22, 44]
-idx = 3
-el = 66
-print(new_in_list(lis, idx, el))
-print(lis)
-'''if __name__ == "__main__":
-    new_in_list()'''
+if __name__ == "__main__":
+    new_in_list()
