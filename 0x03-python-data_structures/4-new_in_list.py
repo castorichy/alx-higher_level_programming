@@ -10,7 +10,3 @@ def new_in_list(my_list, idx, element):
                 return new_list
         else:
             return my_list
-
-
-if __name__ == "__main__":
-    new_in_list()
