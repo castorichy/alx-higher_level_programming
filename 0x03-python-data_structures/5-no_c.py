@@ -7,6 +7,3 @@ def no_c(my_string):
         else:
             print(letter, end='')
 
-
-if __name__ == "__main__":
-    no_c(my_string=[])
