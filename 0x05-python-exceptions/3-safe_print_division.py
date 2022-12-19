@@ -1,14 +1,9 @@
 #!/usr/bin/python3
-
 def safe_print_division(a, b):
     try:
-        div = a / b
+        quotient = a / b
     except ZeroDivisionError:
-        div = None
+        quotient = None
     finally:
-        print("Inside result: {}".format(div))
-    return div
-
-
-str = safe_print_division(12, 2)
-print(str)
+        print("Inside result: {}".format(quotient))
+    return quotient
