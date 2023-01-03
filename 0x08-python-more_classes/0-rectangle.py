@@ -1,8 +1,14 @@
 #!/user/bin/python3
+# Duncan kipruto
+
+"""class that defines a rectangle"""
+
+
 class Rectangle:
     '''
-    A class that defines a rectangle
+    Rectangle definition
     '''
+
     pass
 
 
