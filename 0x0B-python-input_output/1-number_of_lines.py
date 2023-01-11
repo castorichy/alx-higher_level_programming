@@ -1,9 +1,6 @@
 #!/usr/bin/python3
-def number_of_lines(filename=""):
-    """function that reads a text and return number of lines"""
 
-    lines = 0
-    with open(filename) as f:
-        for lin in f:
-            lines += 1
-        return (lines)
+
+def number_of_lines(filename=""):
+    with open(filename, "r", encoding="UTF-8") as f:
+        return len(list(f))
